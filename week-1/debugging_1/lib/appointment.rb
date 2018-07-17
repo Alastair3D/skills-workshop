@@ -14,7 +14,7 @@ class Appointment
     geo_location.formatted_address
   end
 
-  private
+  # private
   attr_reader :location, :geocoder
 
   def geo_location
